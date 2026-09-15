@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  background-color: rgba(198, 190, 190, 1); /*Фоновый цвет*/
+  padding: 15px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.page-wrapper {
+    max-width: 402px;
+    margin: auto;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+
+}
+.header {
+    color: #CEE189;
+    padding: 33px 19px 200px;
+    background: rgba(11, 11, 11, 0.5)url(../img/Taplink-bg.jpg) no-repeat center / cover;
+    border-radius: 0px 0px 90px 90px;
+    
+}
+.Hello {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.hello-text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+}
