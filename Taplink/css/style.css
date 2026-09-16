@@ -81,9 +81,10 @@ body {
     color: #6A6B65;
     width: 124px;
     height: 12px;
-    margin-top: -28px;
+    margin-top: 1px;
 }
 .card {
+    color:beige;
     border-radius: 10px;
     box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.05);
     background: rgba(254, 254, 254, 1); 
@@ -99,14 +100,39 @@ body {
    
 }
 .button-icon {
-    background-color: #fff;
+    color: white;
     display: flex;
     align-items: center;
     height: 40px;
     width: 100%;
     border-radius: 5px;
 }
-.btn-yt {
-    background-color: red;
-
+/* Базовые стили для кнопок-ссылок */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: all 0.25s ease;
 }
+
+/* Иконка внутри кнопки */
+.btn .button-icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
+/* Цвета кнопок */
+.btn-yt { background-color: #FF0000; }
+.btn-mail { background-color: #4285F4; }
+.btn-vk { background-color: #0077FF; }
+
+/* Эффект при наведении */
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
