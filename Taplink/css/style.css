@@ -6,23 +6,24 @@ body {
   padding: 15px;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: normal;
   font-style: normal;
 }
 .page-wrapper {
+    overflow: hidden;
     max-width: 402px;
     min-height: 874px;
     margin: auto;
     border-radius: 20px;
     background: rgba(255, 255, 255, 1);
-
+    box-shadow: 0px 0px 30px rgba(128, 127, 127, 0.25)
 }
 .container {
     min-width: 300px;
     margin: auto;
-    border-radius: 10px;
-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.05);
-background: rgba(254, 254, 254, 1);
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgba(254, 254, 254, 1);
 }
 .header {
     color: #CEE189;
@@ -31,18 +32,18 @@ background: rgba(254, 254, 254, 1);
     background: rgba(11, 11, 11, 0.5)url(../img/Taplink-bg.jpg) no-repeat center / cover;
     border-radius: 20px 20px 90px 90px;
     width: 402px;
-    height: 259px;
+    height: 280px;
     
 }
 .Hello {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 600;
     line-height: 27px;
     letter-spacing: 2px;
     text-align: left;
 }
 .hello-text {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 1px;
@@ -76,14 +77,11 @@ background: rgba(254, 254, 254, 1);
     height: 42px;
 }
 .user-description {
-font-size: smaller;
- color: #6A6B65;
- width: 124px;
-height: 12px;
-margin-top: -28px;
-line-height: 15px;
-
-margin-left: 89px;
-margin-right: 87px;
-
+    line-height: 15px;
+    margin-left: 89px;
+    font-size: smaller;
+    color: #6A6B65;
+    width: 124px;
+    height: 12px;
+    margin-top: -28px;
 }
